@@ -911,6 +911,7 @@ section,
   font-size: 36px;
   transition: 0.5s;
   position: relative;
+  color: var(--accent-color);
 }
 
 .services .service-item .icon svg {
@@ -921,7 +922,7 @@ section,
 
 .services .service-item .icon svg path {
   transition: 0.5s;
-  fill: color-mix(in srgb, var(--default-color), transparent 95%);
+  fill: var(--accent-color);
 }
 
 .services .service-item h3 {
@@ -938,88 +939,90 @@ section,
 
 .services .service-item:hover {
   background-color: var(--accent-color);
-  color: var(--contrast-color);
 }
 
 .services .service-item:hover h3,
-.services .service-item:hover p,
-.services .service-item:hover i {
+.services .service-item:hover p {
   color: var(--contrast-color);
 }
 
-.services .service-item:hover .icon path {
+.services .service-item:hover .icon i {
+  color: var(--contrast-color);
+}
+
+.services .service-item:hover .icon svg path {
   fill: var(--contrast-color);
 }
 
 .services .service-item.item-cyan i {
-  color: #0dcaf0;
+  color: var(--accent-color);
 }
 
 .services .service-item.item-cyan:hover .icon i {
   color: var(--contrast-color);
 }
 
-.services .service-item.item-cyan:hover .icon path {
+.services .service-item.item-cyan:hover .icon svg path {
   fill: var(--contrast-color);
 }
 
 .services .service-item.item-orange i {
-  color: #fd7e14;
+  color: var(--accent-color);
 }
 
 .services .service-item.item-orange:hover .icon i {
   color: var(--contrast-color);
 }
 
-.services .service-item.item-orange:hover .icon path {
+.services .service-item.item-orange:hover .icon svg path {
   fill: var(--contrast-color);
 }
 
 .services .service-item.item-teal i {
-  color: #20c997;
+  color: var(--accent-color);
 }
 
 .services .service-item.item-teal:hover .icon i {
   color: var(--contrast-color);
 }
 
-.services .service-item.item-teal:hover .icon path {
+.services .service-item.item-teal:hover .icon svg path {
   fill: var(--contrast-color);
 }
 
 .services .service-item.item-red i {
-  color: #df1529;
+  color: var(--accent-color);
 }
 
 .services .service-item.item-red:hover .icon i {
   color: var(--contrast-color);
 }
 
-.services .service-item.item-red:hover .icon path {
+.services .service-item.item-red:hover .icon svg path {
   fill: var(--contrast-color);
 }
 
 .services .service-item.item-indigo i {
-  color: #6610f2;
+  color: var(--accent-color);
 }
 
 .services .service-item.item-indigo:hover .icon i {
   color: var(--contrast-color);
 }
 
-.services .service-item.item-indigo:hover .icon path {
+.services .service-item.item-indigo:hover .icon svg path {
   fill: var(--contrast-color);
 }
 
 .services .service-item.item-pink i {
-  color: #f3268c;
+  color: var(--accent-color);
 }
 
 .services .service-item.item-pink:hover .icon i {
   color: var(--contrast-color);
 }
 
-.services .service-item.item-pink:hover .icon path {
+.services .service-item.item-pink:hover .icon svg path {
   fill: var(--contrast-color);
 }
 
