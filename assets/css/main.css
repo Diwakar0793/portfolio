@@ -20,37 +20,37 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #2c3e50; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #1a252f; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #3498db; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --default-color: #333333; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #666666; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
-  --accent-color-hover: #2980b9;
+  --accent-color-hover: #333333;
   --light-color: #f8f9fa;
-  --dark-color: #2c3e50;
-  --gray-color: #6c757d;
+  --dark-color: #000000;
+  --gray-color: #666666;
   --light-gray-color: #f8f9fa;
-  --dark-gray-color: #343a40;
-  --success-color: #2ecc71;
-  --info-color: #3498db;
-  --warning-color: #f1c40f;
-  --danger-color: #e74c3c;
+  --dark-gray-color: #333333;
+  --success-color: #666666;
+  --info-color: #666666;
+  --warning-color: #666666;
+  --danger-color: #666666;
   --white-color: #ffffff;
   --black-color: #000000;
-  --body-color: #6c757d;
-  --border-color: #dee2e6;
+  --body-color: #666666;
+  --border-color: #cccccc;
   --box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #45505b;  /* The default color of the main navmenu links */
-  --nav-hover-color: #0563bb; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-color: #333333;  /* The default color of the main navmenu links */
+  --nav-hover-color: #000000; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #0563bb; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-color: #333333; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #000000; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -61,10 +61,10 @@
 }
 
 .dark-background {
-  --background-color: #060606;
+  --background-color: #000000;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #252525;
+  --surface-color: #333333;
   --contrast-color: #ffffff;
 }
 
