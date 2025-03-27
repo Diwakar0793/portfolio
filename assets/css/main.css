@@ -942,8 +942,13 @@ section,
 }
 
 .services .service-item:hover h3,
-.services .service-item:hover p {
+.services .service-item:hover p,
+.services .service-item:hover i {
   color: var(--contrast-color);
+}
+
+.services .service-item:hover .icon path {
+  fill: var(--contrast-color);
 }
 
 .services .service-item.item-cyan i {
@@ -951,11 +956,11 @@ section,
 }
 
 .services .service-item.item-cyan:hover .icon i {
-  color: #fff;
+  color: var(--contrast-color);
 }
 
 .services .service-item.item-cyan:hover .icon path {
-  fill: #0dcaf0;
+  fill: var(--contrast-color);
 }
 
 .services .service-item.item-orange i {
@@ -963,11 +968,11 @@ section,
 }
 
 .services .service-item.item-orange:hover .icon i {
-  color: #fff;
+  color: var(--contrast-color);
 }
 
 .services .service-item.item-orange:hover .icon path {
-  fill: #fd7e14;
+  fill: var(--contrast-color);
 }
 
 .services .service-item.item-teal i {
@@ -975,11 +980,11 @@ section,
 }
 
 .services .service-item.item-teal:hover .icon i {
-  color: #fff;
+  color: var(--contrast-color);
 }
 
 .services .service-item.item-teal:hover .icon path {
-  fill: #20c997;
+  fill: var(--contrast-color);
 }
 
 .services .service-item.item-red i {
@@ -987,11 +992,11 @@ section,
 }
 
 .services .service-item.item-red:hover .icon i {
-  color: #fff;
+  color: var(--contrast-color);
 }
 
 .services .service-item.item-red:hover .icon path {
-  fill: #df1529;
+  fill: var(--contrast-color);
 }
 
 .services .service-item.item-indigo i {
@@ -999,11 +1004,11 @@ section,
 }
 
 .services .service-item.item-indigo:hover .icon i {
-  color: #fff;
+  color: var(--contrast-color);
 }
 
 .services .service-item.item-indigo:hover .icon path {
-  fill: #6610f2;
+  fill: var(--contrast-color);
 }
 
 .services .service-item.item-pink i {
@@ -1011,11 +1016,11 @@ section,
 }
 
 .services .service-item.item-pink:hover .icon i {
-  color: #fff;
+  color: var(--contrast-color);
 }
 
 .services .service-item.item-pink:hover .icon path {
-  fill: #f3268c;
+  fill: var(--contrast-color);
 }
 
 /*--------------------------------------------------------------
